@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fod blog</title>
+    <link rel="shortcut icon" href="./assets/img/humberger/humberger-logo.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+ 
+  <body>
+    <section class="rocket">
+      <div>
+        <a href="#top"><i class="fas fa-space-shuttle"></i></a>
+      </div>
+    </section>
+    <!-- Preloader  -->
+    <div class="preloader"  style="height: 100vh">
+      <img
+        src="./assets/img/Spinner-1s-200px.gif"
+        alt="Preloader.gif"
+        id="preloder"
+      />
+    </div>
+    <div class="Parts">
+      <!-- Nav bar  -->
+      <section id="top">
+        <nav>
+          <div class="Menubar" >
+            <div class="menu" id="menu">
+              <span> <i class="fas fa-bars"></i></span>
+            </div>
+          </div>
+          <!-- submenu -->
+          <div class="navContent text-white" id="navContent">
+            <ul>
+              <div class="close p-2" style="margin-left: -10px" id="close">
+                <span><i class="fas fa-times-circle fs-4"></i> </span>
+              </div>
+              <div class="item ">
+                <li>
+                  <a href="#top" onclick="Tog(this)"
+                    ><span>Home</span><i class="fas fa-caret-left"></i>
+                  </a>
+                </li>
+                <!-- nested menu -->
+                <div class="sub_item d-grid" id="sub_item">
+                  <a href=""><i class="far fa-circle"></i> <span>Home 1</span></a>
+                  <a href=""><i class="far fa-circle"></i> <span>Home 1</span></a>
+                  <a href=""><i class="far fa-circle"></i> <span>Home 1</span></a>
+                  <a href=""><i class="far fa-circle"></i> <span>Home 1</span></a>
+                  <a href=""><i class="far fa-circle"></i> <span>Home 1</span></a>
+                </div>
+                <!--  End nested menu -->
+  
+                <div class="item ">
+                  <li>
+                    <a href="#" 
+                      ><span>Recipes</span><i class="fas fa-caret-left arrow"></i>
+                    </a>
+                  </li>
+                </div>
+                <div class="item ">
+                  <li>
+                    <a href="#" 
+                      ><span>Dinner</span><i class="fas fa-caret-left arrow"></i>
+                    </a>
+                  </li>
+                </div>
+                <div class="item ">
+                  <li>
+                    <a href="#" 
+                      ><span>Page</span><i class="fas fa-caret-left arrow"></i>
+                    </a>
+                  </li>
+                </div>
+                <div class="item ">
+                  <li>
+                    <a href="#" 
+                      ><span>About</span><i class="fas fa-caret-left arrow"></i>
+                    </a>
+                  </li>
+                </div>
+                <div class="item ">
+                  <li>
+                    <a href="#" 
+                      ><span>Contact</span><i class="fas fa-caret-left arrow"></i>
+                    </a>
+                  </li>
+                </div>
+                <div class="item ">
+                  <li>
+                    <a href="#" 
+                      ><span>Dessert</span><i class="fas fa-caret-left arrow"></i>
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <!-- End submenu -->
+          <div class="navLinks">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Dinner</a></li>
+              <li><a href="#">Desserts</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navBtn" >
+            <i class="fas fa-search searchBtn"></i>
+            </div>
+            <div class="searchBox">
+              <div class="input-group">
+                <div class="form-outline">
+                  <input type="search" id="form1" class="form-control" />
+                  <label class="form-label" for="form1">Search</label>
+                </div>
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          </nav>
+      </section>
+    
+     <!--End  Nav bar  -->
+    
+      <section id="Social" class="d-flex justify-content-between p-3   align-items-center">
+       <div class="ps-2">
+        <button type="button" class="btn btn-outline-primary">Subscribe</button>
+       </div>
+       <div class="">
+        <img src="./assets/img/logo.png" alt="Logo.png">
+       </div>
+       <div class="Social_icon">
+        <a href="mailto:"><i class="fas fa-envelope"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-youtube-square"></i></a>
+       </div>
+      </section>
+    </div>
+    <!-- Gallery 1 -->
+    <section>
+    <div class="gallery1">
+      <div class="div1"><img src="./assets/img/hero/hero-1.jpg" alt="hero-1.jpg" /></div>
+      <div class="div2"><img src="./assets/img/hero/hero-4.jpg" alt="hero-2.jpg" /></div>
+      <div class="div3"><img src="./assets/img/hero/hero-2.jpg" alt="hero-3.jpg" /></div>
+      <div class="div4"><img src="./assets/img/hero/hero-3.jpg" alt="hero-4.jpg" /></div>
+    </div>
+  </section>
+    <!-- End gallery 2 -->
+    <section class="d-lg-flex d-md-flex d-sm-none  justify-content-between p-5 none">
+      <div class="bg-image  p-2">
+        <img
+          src="./assets/img/categories/cat-1.jpg"
+          class="img-fluid"
+          style="width:100%;object-fit:cover;"
+          alt="Louvre Museum"
+        />
+        <div class="mask" style="background-color: hsla(0, 0%, 0%, 0)">
+          <div class="d-flex justify-content-center align-items-center h-100 hoverParent"style="width:100%">
+          <div class="text-dark text-center  p-2 hoverChild">
+            <p class="text-uppercase fs-4">dinner</p>
+            <span class="text-muted" style="position:relative;top:-29px; font-size: 16px;">18 articles</span>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-image p-2">
+        <img
+          src="./assets/img/categories/cat-2.jpg"
+          class="img-fluid"
+          style="width:100%;object-fit:cover;"
+          alt="Louvre Museum"
+        />
+        <div class="mask" style="background-color: hsla(0, 0%, 0%, 0)">
+          <div class="d-flex justify-content-center align-items-center h-100 hoverParent"style="width:100%">
+          <div class="text-dark text-center  p-2 hoverChild">
+            <p class="text-uppercase fs-4">dinner</p>
+            <span class="text-muted" style="position:relative;top:-29px; font-size: 16px;">18 articles</span>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-image p-2">
+        <img
+          src="./assets/img/categories/cat-3.jpg"
+          class="img-fluid"
+          style="width:100%;object-fit:cover;"
+          alt="Louvre Museum"
+        />
+        <div class="mask" style="background-color: hsla(0, 0%, 0%, 0)">
+          <div class="d-flex justify-content-center align-items-center h-100 hoverParent"style="width:100%">
+          <div class="text-dark text-center  p-2 hoverChild">
+            <p class="text-uppercase fs-4">dinner</p>
+            <span class="text-muted" style="position:relative;top:-29px; font-size: 16px;">18 articles</span>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-image p-2">
+        <img
+          src="./assets/img/categories/cat-4.jpg"
+          class="img-fluid"
+          style="width:100%;object-fit:cover;"
+          alt="Louvre Museum"
+        />
+        <div class="mask" style="background-color: hsla(0, 0%, 0%, 0)">
+          <div class="d-flex justify-content-center align-items-center h-100 hoverParent"style="width:100%">
+          <div class="text-dark text-center  p-2 hoverChild">
+            <p class="text-uppercase fs-4">dinner</p>
+            <span class="text-muted" style="position:relative;top:-29px; font-size: 16px;">18 articles</span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Second Gallery -->
+  <section class="imagesGallery2">
+    <div
+    class="container-fluid  col-lg-12 d-lg-flex d-md-grid p-2"
+  >
+    <div class="col-lg-8 col-md-12  ">
+      <div class="col-12  p-2">
+        <div class="bg-image ripple" data-mdb-ripple-color="light">
+          <img
+            src="./assets/img/categories/categories-post/cp-1.jpg"
+            class="img-fluid"
+            style="object-fit: cover; width: 100%"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: hsla(0, 0%, 0%, 0.095)"
+            >
+              <div
+                class="p-2 m-2"
+                style="
+                  width: 80px;
+                  background-color: rgba(255, 255, 255, 0.435);
+                "
+              >
+                <p class="" style="display: grid; place-content: center">
+                  <big class="text-dark" style="font-size: 30px">08</big>
+                  <span
+                    class="text-muted text-uppercase"
+                    style="
+                      font-size: 12px;
+                      text-align: center;
+                      margin-top: -10px;
+                    "
+                    >Aug</span
+                  >
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="topUL">
+          <ul>
+            <li
+              style="
+                --left-val: 119%;
+                --bg-col: silver;
+                --text-uppercase: uppercase;
+                --color: rgb(0, 8, 255);
+              "
+            >
+              Vegan
+            </li>
+            <li
+              style="
+                --left-val: 119%;
+                --bg-col: silver;
+                --text-uppercase: uppercase;
+                --color: blue;
+              "
+            >
+              Desserts
+            </li>
+          </ul>
+          <h4 class="container-fluid text-center text-dark">
+            The absolute best way to cooke steak perfectly , according to
+            wayyy to many test
+          </h4>
+          <ul>
+            <li
+              style="
+                --left-val: 119%;
+                --bg-col: silver;
+                --text-uppercase: capitalize;
+                --color: black;
+              "
+            >
+              <span class="text-muted">by</span>&nbsp;admin
+            </li>
+            <li
+              class="text-muted"
+              style="
+                --left-val: 119%;
+                --bg-col: silver;
+                --text-uppercase: capitalize;
+                --color: silver;
+              "
+            >
+              3 min
+            </li>
+            <li
+              class="text-muted"
+              style="
+                --left-val: 119%;
+                --bg-col: transparent;
+                --text-uppercase: capitalize;
+                --color: silver;
+              "
+            >
+              20 comments
+            </li>
+          </ul>
+          <p class="container-fluid text-dark text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+            dolorem eius similique quidem libero est recusandae maiores
+            accusantium? Harum, officiis!
+          </p>
+        </div>
+      </div>
+      <div class="col-12  d-lg-flex d-md-grid justify-content-center ">
+        <div class=" col-lg-6 col-md-12 p-2 ">
+          <div class="bg-image ripple" data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-2.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: hsla(0, 0%, 0%, 0.095)"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+                REcipes
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark">
+              The Best Weeknight Baked Potatoes, 3 Creative Ways
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+          <div class="bg-image ripple" data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-3.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: hsla(0, 0%, 0%, 0.095)"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+                REcipes
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark">
+              The Best Weeknight Baked Potatoes, 3 Creative Ways
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+          <div class="bg-image ripple" data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-6.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: hsla(0, 0%, 0%, 0.095)"
+              >
+             
+                   
+                 
+                
+               
+              </div>
+            </a>
+          </div>
+        <br> <br>
+          <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-8.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+              Smoothei
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark text-capitalize">
+             This 2-ingredient spread makes ayn egg sandwich so much better
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+        </div>
+        <div class=" col-lg-6 col-md-12 p-2">
+          <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-4.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+              Smoothei
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark text-capitalize">
+             This 2-ingredient spread makes ayn egg sandwich so much better
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+          <div>
+            <img src="./assets/img/categories/categories-post/quote.png" alt="" class="img-fluid ">
+            <p class="p-2 text-center"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quisquam quasi nemo accusamus fugit itaque in et omnis laudantium ducimus dolores architecto voluptate quo voluptates inventore, incidunt amet nesciunt quam!</p>
+           <p  class=" text-end text-capitalize " style="width:100%;"> <span>elena T.jaivy</span></p>
+          </div>
+          <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-5.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+              Smoothei
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark text-capitalize">
+             This 2-ingredient spread makes ayn egg sandwich so much better
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+          <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/categories/categories-post/cp-7.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+              Smoothei
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark text-capitalize">
+             This 2-ingredient spread makes ayn egg sandwich so much better
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------Right content -->
+    <div class="col-lg-4 col-md-12 p-2">
+      <span class="text-uppercase fs-4 text-dark p-2 aboutText">About Me</span>
+      <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/sidebar/sidebar-about.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+           
+            <span class="ms-4">Hi every one! I,m <code>Lena Mollein</code></span>
+            <p class="container-fluid text-dark text-left ms-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed               dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+            <div class="button ms-4"><button type="button" class="btn btn-outline-primary">Read More</button></div>
+          </div>
+          <div class="social_icon d-flex align-items-center">
+            <span class="text-uppercase fs-4 text-dark p-2 followTExt">Follow  Me</span>
+            <div class="ms-3">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+          </div>
+         
+          <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/sidebar/feature-post.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+              Smoothei
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark text-capitalize">
+             This 2-ingredient spread makes ayn egg sandwich so much better
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+          <div>
+           <div class="items ms-2 d-flex pb-2">
+            <div class="Rightdate d-grid text-center " style="background-color: lavender;width: 60px;">
+              <big class="fs-3 text-dark">08</big>
+              <small style="margin-top: -25px;">AUG</small>
+            </div>
+            <div class="RightContent ms-2">
+              <span class="text-primary">Dinner</span>
+              <p class="text-dark">Grilled Potato and Green Bean Salad</p>
+            </div>
+           </div>
+           <div class="items ms-2 d-flex pb-2">
+            <div class="Rightdate d-grid text-center " style="background-color: lavender;width: 60px;">
+              <big class="fs-3 text-dark">28</big>
+              <small style="margin-top: -25px;">AUG</small>
+            </div>
+            <div class="RightContent ms-2">
+              <span class="text-primary">SMOOTHIE</span>
+              <p class="text-dark">Grilled Potato and Green Bean Salad</p>
+            </div>
+           </div>
+           <div class="items ms-2 d-flex pb-2">
+            <div class="Rightdate d-grid text-center " style="background-color: lavender;width: 60px;">
+              <big class="fs-3 text-dark">28</big>
+              <small style="margin-top: -25px;">JULY</small>
+            </div>
+            <div class="RightContent ms-2">
+              <span class="text-primary">DESERT</span>
+              <p class="text-dark">Grilled Potato and Green Bean Salad</p>
+            </div>
+           </div>
+           <div class="items ms-2 d-flex pb-2">
+            <div class="Rightdate d-grid text-center " style="background-color: lavender;width: 60px;">
+              <big class="fs-3 text-dark">18</big>
+              <small style="margin-top: -25px;">JUL</small>
+            </div>
+            <div class="RightContent ms-2">
+              <span class="text-primary">VEGAN</span>
+              <p class="text-dark">Grilled Potato and Green Bean Salad</p>
+            </div>
+           </div>
+         
+          </div>
+
+          <div class="bg-image ripple " data-mdb-ripple-color="light">
+            <img
+              src="./assets/img/sidebar/banner.jpg"
+              class="img-fluid"
+              style="object-fit: cover; width: 100%"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color:transparent;"
+              >
+                <div
+                  class="p-2 m-2"
+                  style="
+                    width: 80px;
+                    background-color: rgba(255, 255, 255, 0.435);
+                  "
+                >
+                  <p class="" style="display: grid; place-content: center">
+                    <big class="text-dark" style="font-size: 30px">08</big>
+                    <span
+                      class="text-muted text-uppercase"
+                      style="
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: -10px;
+                      "
+                      >Aug</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="topUL">
+            <ul>
+             
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: uppercase;
+                  --color: blue;
+                "
+              >
+              Smoothei
+              </li>
+            </ul>
+            <h4 class="container-fluid text-center text-dark text-capitalize">
+             This 2-ingredient spread makes ayn egg sandwich so much better
+            </h4>
+            <ul>
+              <li
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: black;
+                "
+              >
+                <span class="text-muted">by</span>&nbsp;admin
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: silver;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                3 min
+              </li>
+              <li
+                class="text-muted"
+                style="
+                  --left-val: 119%;
+                  --bg-col: transparent;
+                  --text-uppercase: capitalize;
+                  --color: silver;
+                "
+              >
+                20 comments
+              </li>
+            </ul>
+            <p class="container-fluid text-dark text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              pariatur ducimus, eos et tempore modi molestiae, in distinctio sed
+              dolorem eius similique quidem libero est recusandae maiores
+              accusantium? Harum, officiis!
+            </p>
+          </div>
+          <div>
+            <div class="category p-2">
+              <span class="text-uppercase fs-6 text-dark p-2 followTExt">Categories</span>
+              <ol class="list-group list-group-light list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Recipes</div>
+                  </div>
+                  <span class="badge badge-primary rounded-pill">124</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Dinner</div>
+                  </div>
+                  <span class="badge badge-primary rounded-pill">34</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Dessert</div>
+                  </div>
+                  <span class="badge badge-primary rounded-pill">04</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">vegan</div>
+                  </div>
+                  <span class="badge badge-primary rounded-pill">14</span>
+                </li>
+              </ol>
+            </div>
+            <div class="subscribe p-2">
+              <span class="text-uppercase fs-6 text-dark p-2 followTExt">subscribe</span>
+              <span class="d-flex justofy-content-center mx-2">
+                <p>Subscribe to our newsletter and get our newest updates right on your inbox.</p>
+              </span>
+              <div class="form-outline ">
+                <input type="email" id="typeEmail" class="form-control" />
+                <label class="form-label" for="typeEmail">Email input *</label>
+              </div>
+              <br>
+              <button type="button" class="btn btn-secondary">subscribe</button>
+            </div>
+          </div>
+          
+    </div>
+    <!-- ----------------End Right content -->
+
+  </div>
+  </section>
+
+  <section class="pb-2 pt-2">
+   
+  <!--Grid row-->
+  <div class="container " >
+    <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 row-cols-md-4 ">
+      <div class="col  overtext"><img src="./assets/img/footer/ip-1.jpg" alt="Errorimg" style="object-fit: cover; width: 100%;"></div>
+      <div class="col "><img src="./assets/img/footer/ip-2.jpg" alt="Errorimg" style="object-fit: cover; width: 100%;"></div>
+      <div class="col "><img src="./assets/img/footer/ip-3.jpg" alt="Errorimg" style="object-fit: cover; width: 100%;"></div>
+      <div class="col "><img src="./assets/img/footer/ip-4.jpg" alt="Errorimg" style="object-fit: cover; width: 100%;"></div>
+    </div>
+  </div>
+ 
+
+<!--Grid row-->
+  </section>
+ 
+  <footer class="text-center text-white" style="background-color: #043fae;">
+    <!-- Grid container -->
+    <div class="container p-4">
+    
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright
+     
+    </div>
+    <!-- Copyright -->
+  </footer>
+  </body>
+</html>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
+></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./assets/javascript.js"></script>
